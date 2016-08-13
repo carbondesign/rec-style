@@ -1,0 +1,25 @@
+<div class="page" id="page">
+	{{> applications-header }}
+	<div role="main">
+		<div class="l-two-col">
+			<div class="l-main">
+				<article class="article">
+					<header class="article-header">
+						<h1>Article Headline Lorem ipsum dolor sit aweofij</h1>
+						{{> components-byline-author-time }}
+					</header>
+					{{> applications-article-body }}
+				</article><!--end .article-->
+				{{> components-social-share }}
+				{{> applications-sticky-comment }}
+				{{> applications-comment-thread }}
+			</div><!--end l-main-->
+
+			<div class="l-sidebar">
+				{{> applications-related-posts }}
+				{{> applications-recent-tweets }}
+			</div><!--end l-sidebar-->
+		</div><!--end l-two-col-->
+	</div><!--End role=main-->
+	{{> applications-footer }}
+</div>
