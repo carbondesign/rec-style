@@ -6,7 +6,7 @@ The Node version of [Pattern Lab](http://patternlab.io/) is, at its core, a stat
 
 This repository contains the vanilla builder logic, grunt and gulp configurations, and some sample template/css/data to illustrate the power and flexibility of the tool.
 
-###### Core Team TEST
+###### Core Team
 * [@bmuenzenmeyer](https://github.com/bmuenzenmeyer) - Lead Maintainer
 * [@geoffp](https://github.com/geoffp) - Core Contributor
 
