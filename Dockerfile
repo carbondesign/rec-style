@@ -1,11 +1,9 @@
-FROM node:latest
-USER root
-COPY package.json /bundle/package.json
-WORKDIR /bundle
+FROM node:4.3.2
 
-RUN npm install sudo
-RUN npm rebuild node-sass
-RUN npm run clean
+RUN useradd --user-group --create-home --shell /bin/false app &&\
+  npm install --global npm@3.7.5
 
-COPY . /bundle
+ENV HOME=/home/app
 
+USER app
+WORKDIR $HOME/styleguide

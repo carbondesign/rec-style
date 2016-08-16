@@ -1,0 +1,5 @@
+styleguide:
+  build: .
+  command: echo 'ready'
+  volumes:
+    - .:/home/app/styleguide
